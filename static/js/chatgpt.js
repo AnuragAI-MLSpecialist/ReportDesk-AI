@@ -94,7 +94,7 @@ $(document).ready(function () {
 
                 $('.spinner').addClass("hidespeaner");
                 $('.spinner').removeClass("showspeaner");
-                $('#usersquestions').val($('#usersquestions').val()+1)
+                $('#usersquestions').val(parseInt($('#usersquestions').val())+1)
 
 
             }
@@ -225,7 +225,7 @@ input.addEventListener("keypress", function (event) {
 
                     $('.spinner').addClass("hidespeaner");
                     $('.spinner').removeClass("showspeaner");
-                    $('#usersquestions').val($('#usersquestions').val()+1)
+                    $('#usersquestions').val(parseInt($('#usersquestions').val())+1)
 
 
                 }
